@@ -1,8 +1,0 @@
-
-<!-- liquid loop to fill a script javascript tag with each value found in the "jsarr" parameter from the Jekyll Start Matter. -->
-
-{% for js in page.jsarr %}
-	<script type="text/javascript">
-		{% include {{ js }} %}
-	</script>
-{% endfor %}

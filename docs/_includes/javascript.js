@@ -1,1 +1,1 @@
-alert("Javascript.js executing");
+document.getElementById('javascriptDomTarget').innerHTML = "Javascript has executed";

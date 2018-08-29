@@ -1,4 +1,6 @@
-theme: jekyll-theme-architect
+# Disabled theme reference, have embedded template files instead.
+# theme: jekyll-theme-architect
+
 # SITE CONFIGURATION
 baseurl: "/metricgames"
 url: "https://mdeselincourt.github.io/"
