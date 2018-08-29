@@ -1,5 +1,5 @@
 current directory: C:/Users/michael.deselincourt/Documents/GitHub/metricgames/docs/vendor/bundle/gems/commonmarker-0.17.11/ext/commonmarker
-C:/Ruby24-x64/bin/ruby.exe -r ./siteconf20180829-25808-i4n041.rb extconf.rb
+C:/Ruby24-x64/bin/ruby.exe -r ./siteconf20180829-36736-11wv06h.rb extconf.rb
 creating Makefile
 
 current directory: C:/Users/michael.deselincourt/Documents/GitHub/metricgames/docs/vendor/bundle/gems/commonmarker-0.17.11/ext/commonmarker
@@ -58,4 +58,4 @@ linking shared-object commonmarker/commonmarker.so
 
 current directory: C:/Users/michael.deselincourt/Documents/GitHub/metricgames/docs/vendor/bundle/gems/commonmarker-0.17.11/ext/commonmarker
 make "DESTDIR=" install
-/usr/bin/install -c -m 0755 commonmarker.so ./.gem.20180829-25808-1shdsmj/commonmarker
+/usr/bin/install -c -m 0755 commonmarker.so ./.gem.20180829-36736-mdgoon/commonmarker

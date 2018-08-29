@@ -2,6 +2,6 @@
 layout: default
 ---
 
-# It's a me
+# This is index.md
 
-## Mario
+## With layout: default
