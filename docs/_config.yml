@@ -2,5 +2,9 @@ theme: jekyll-theme-architect
 # SITE CONFIGURATION
 baseurl: "/metricgames"
 url: "https://mdeselincourt.github.io/"
+
 # Repo config to get it to run locally
 repository: mdeselincourt/metricgames
+
+# "vendor" exclusion based upon this issue https://github.com/jekyll/jekyll/issues/5267#issuecomment-241379902
+exclude: [vendor]
