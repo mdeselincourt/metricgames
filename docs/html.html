@@ -5,26 +5,21 @@ jsarr:
 ---
 <html>
 <body>
-<h1>This is html.html</h1>
-<h2>with layout: default</h2>
 <h2>games = players.hours.(feels-5)^2</h2>
 
 <div class="slidecontainer">
-	<p id="playerNumberOutputSpan">? Players</p>
-  <input type="range" min="1" max="100" value="10" class="slider" id="playersRange">
+	Players:<input type="range" min="1" max="1000" value="10" class="slider" id="playersRange"><span id="playersOutput">?</span> 
 </div>
 
 <div class="slidecontainer">
-	<p>Hours</p>
-  <input type="range" min="1" max="100" value="10" class="slider" id="hoursRange">
+	Hours:<input type="range" min="1" max="100" value="10" class="slider" id="hoursRange"><span id="hoursOutput">?</span> 
 </div>
 
 <div class="slidecontainer">
-	<p>Feels</p>
-  <input type="range" min="1" max="10" value="5" class="slider" id="myRange">
+	Feels:<input type="range" min="0" max="100" value="50" class="slider" id="feelsRange"><span id="feelsOutput">?</span> 
 </div>
 
-<div id="javascriptDomTarget">Awaiting Javascript...</div>
+<div id="gamesOutput">Awaiting Javascript...</div>
 
 </body>
 </html>
