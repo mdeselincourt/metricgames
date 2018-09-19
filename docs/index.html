@@ -1,0 +1,51 @@
+---
+layout: default
+jsarr: 
+- pretty-ms.js
+- javascript.js
+---
+<html>
+<body>
+
+<img src="assets/images/formula.JPG"/>
+
+<p>
+	<ul>
+		<li>G = 1 game = 14,400 player seconds</li>
+		<li>M = the universal Megagame constant = 3.135</li>
+		<li>a = authenticity (0 <= a <= 1)</li>
+	</ul>
+</p>
+
+<h2>Magnitude</h2>
+
+<p class="slidecontainer">
+	<span class="forelabel">Players:</span><input type="range" min="1" max="100" value="14" class="slider" id="playersRange"><span class="afterlabel" id="playersOutput">?</span> 
+</p>
+
+<p class="slidecontainer">
+	<span class="forelabel">Duration:</span><input type="range" min="1" max="100" value="9" class="slider" id="secondsRange"><span class="afterlabel" id="secondsOutput">?</span> 
+</p>
+
+<h2>Authenticity</h2>
+
+<p class="slidecontainer">
+	<span class="forelabel">Operationality:</span><input type="range" min="1" max="100" value="100" class="slider" id="operationalityRange"><span class="wordyafterlabel" id="operationalityOutput">?</span> 
+</p>
+
+<p class="slidecontainer">
+	<span class="forelabel">LARPness:</span><input type="range" min="1" max="100" value="100" class="slider" id="larpRange"><span class="wordyafterlabel" id="larpOutput">?</span> 
+</p>
+
+<!--
+<div class="slidecontainer">
+	<span class="forelabel">Feels:</span><input type="range" min="1" max="100" value="50" class="slider" id="feelsRange"><span class="afterlabel" id="feelsOutput">?</span> 
+</div>
+-->
+
+<h2 id="gamesOutput">You have designed:</h2>
+
+<p>Disagree? Great! Submit your improvements to the <a href="https://www.facebook.com/groups/2241849549381275/">Megagame Definers</a></p>
+
+</body>
+</html>
