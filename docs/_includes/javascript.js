@@ -78,11 +78,14 @@ window.onload = init;
 				
 		const METRICGAMEWEIGHT = 14400;
 		
-		const UNIVERSALMEGAGAMECONSTANT = 3.135;
+		const UNIVERSALMEGAGAMECONSTANT = Math.PI;
 		
 		var legitimacy = larpiness * operationality;
 		
 		// Calculate games in both "General" and fixed scientific notation
+		//
+		// LaTeX: games = (\frac{players \cdot seconds}{G})^{M \cdot a}
+		//
 		var games = Math.pow((playerSeconds/METRICGAMEWEIGHT),(UNIVERSALMEGAGAMECONSTANT * legitimacy));
 		//console.log(":" + playerSeconds + "ps => " + playerSeconds/METRICGAMEWEIGHT + "^" + UNIVERSALMEGAGAMECONSTANT + " => games = " + games);
 		

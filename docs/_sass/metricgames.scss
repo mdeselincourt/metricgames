@@ -1,12 +1,53 @@
 /* LAYOUT STYLES */
+
+/*
 .slider {
   width: 50%;
   float:left;
 }
+*/
 
 .slidecontainer {
 	height:1em;
 }
+
+
+// FROM W3 SCHOOLS START
+.slider {
+    -webkit-appearance: none;
+	float: left;
+    width: 50%;
+    height: 15px;
+    border-radius: 5px;
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+}
+
+.slider:hover {
+    opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #5555ff;
+    cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #5555ff;
+    cursor: pointer;
+}
+// FROM W3 SCHOOLS END
 
 .forelabel {
 	width: 20%;
@@ -33,3 +74,4 @@
 	float:left;
 	font-size:100%;
 }
+
